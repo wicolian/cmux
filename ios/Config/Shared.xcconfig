@@ -28,7 +28,9 @@ CMUX_GIT_SHA =
 CMUX_DEV_TAG =
 // Optional comma-separated Mac development tags intentionally compatible with
 // one tagged iOS build. Empty keeps the default exact-tag boundary.
-CMUX_COMPATIBLE_MAC_TAGS =
+// TEMPORARY local dogfood overlay for the cdial concurrent-dial timing test;
+// never commit this value.
+CMUX_COMPATIBLE_MAC_TAGS = cdial1,cdial2
 
 // Per-developer presence/paired-Mac-backup worker override, baked into the
 // CMUXPresenceBaseURL Info.plist key so a normally-tapped dev device build (which
